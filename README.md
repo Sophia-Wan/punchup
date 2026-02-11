@@ -1,16 +1,11 @@
-# React + Vite
+Punch Up Ideation
+------------------
+Ideation: Where the landing page of my name has small interactions, like when users hover a letter is shakes, and if they click on some letters to much the letter may drop or something hiding behind it will appear.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It'll help enhance my work, as the first thing people will see when they click into my portfolio is an interactive title that can be played around with. It will be kind of like a game loading screen where it introduces me instead.
 
-Currently, two official plugins are available:
+Inspo: https://i.ytimg.com/vi/1Q1MW_u8bOU/maxresdefault.jpg 
+https://ca.pinterest.com/pin/383017143332474826/ 
+https://ca.pinterest.com/pin/881790802021573171/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fears and Uncertainty: Some things I'm worried about are when I start actively coding this out, it doesn't look as well as I imagined due to a possible lack of skills/knowledge on how to create it through code. 
