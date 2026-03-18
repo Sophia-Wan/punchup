@@ -55,16 +55,36 @@
 
 }
 /* description box*/
-.cloud-desc {
+.cloud-desc-wrap {
   position: absolute;
   left: 50%;
   bottom: 20%;
   transform: translateX(-50%);
   width: min(750px, 80vw);
   height: auto;
-
+  z-index: 2;
   pointer-events: none;
   user-select: none;
+}
+
+.cloud-desc {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cloud-desc-text {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 1.2rem 2rem;
+margin-top:1.5rem;
+  text-align: center;
+  color: #dcdcdd;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.15;
 }
 
 /*background stars*/
