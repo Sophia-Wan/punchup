@@ -1,0 +1,27 @@
+
+.cloud-buttons {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    pointer-events: auto;
+    z-index: 20;
+}
+.cloud-button {
+    position: relative;
+    z-index: 3;
+    pointer-events: auto;
+    padding: 1rem 3.25rem;
+    border-radius: 15px;
+    border: 5px solid rgba(255, 255, 255, 0.45);
+    background: rgba(203, 108, 206, 0.35);
+    color: #f2f2f2;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    cursor: pointer;
+} 
