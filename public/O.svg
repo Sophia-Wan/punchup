@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 231.24 239.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e794f4;
+      }
+
+      .cls-2 {
+        stroke-width: .5px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #1d2a49;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        fill: #1d2a49;
+      }
+
+      .cls-4 {
+        stroke-width: .15px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M117.12,239.91c-16.24,0-31.42-3.06-45.54-9.18-14.13-6.12-26.53-14.62-37.21-25.53-10.68-10.9-19.08-23.52-25.19-37.87C3.06,152.99,0,137.7,0,121.46s2.95-32.7,8.84-47.38c5.89-14.68,14.07-27.58,24.53-38.7,10.45-11.12,22.63-19.8,36.54-26.03C83.81,3.12,98.65,0,114.45,0s31.42,3.06,45.55,9.18c14.12,6.12,26.53,14.63,37.2,25.53,10.68,10.9,19.02,23.64,25.03,38.2,6.01,14.57,9.01,30.31,9.01,47.21s-2.95,31.92-8.84,46.38c-5.9,14.46-14.13,27.19-24.69,38.21-10.57,11.01-22.69,19.63-36.37,25.86-13.68,6.23-28.42,9.34-44.21,9.34ZM115.45,178.85c7.56,0,14.68-1.5,21.35-4.51s12.51-7.12,17.52-12.35c5.01-5.22,8.89-11.45,11.68-18.68,2.78-7.23,4.17-14.96,4.17-23.19s-1.45-15.9-4.34-23.02c-2.89-7.12-6.84-13.4-11.85-18.85-5.01-5.45-10.79-9.68-17.35-12.68-6.56-3-13.51-4.5-20.85-4.5s-14.63,1.5-21.19,4.5c-6.56,3-12.35,7.23-17.35,12.68-5,5.45-8.96,11.74-11.84,18.85-2.89,7.12-4.34,14.8-4.34,23.02s1.44,15.57,4.34,22.69c2.89,7.12,6.84,13.41,11.84,18.85,5.01,5.45,10.79,9.68,17.35,12.68,6.56,3,13.51,4.51,20.85,4.51Z"/>
+      <g id="sleepy_bunny" data-name="sleepy bunny">
+        <g>
+          <path class="cls-4" d="M71.76,168.32s-13.7,11.93,4.06,11.65c17.76-.28-4.06-11.65-4.06-11.65Z"/>
+          <image width="88" height="87" transform="translate(116.17 136.51)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABXCAYAAACAw4LhAAAACXBIWXMAAAsSAAALEgHS3X78AAADWElEQVR4nO3ZzYocVRjG8f9zqrqnRx07SKskMwSyEmbIJoFEBF0FceHWW8htTM9teAMusvAGspjgKpHE2WTEjcgwMYk2IZOv6Y+q87hogjHRSYiYPsj7g1oWPPVwOLznFIQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEJ4JVp0gKPYPjKfJL+pLK+ryIKHw2Ha/GqzHlWjpc60U6vSX3K6tWfdWTNoBxPWaSTlRWV9meIK9tCJL+ndf2v8/pLqVae2T6Zu1QqgcmUSjVw9mFbtHQ7H9/pV//HWpa1mOBwWV3S16ADP8tCJi/Qe5sma5PM4f270mcnnRHVGpDMmnzE67bY9ldBKqqpOpmk2Tm1MV06stNvb20VtG8Ws4OFwmDYvbvYeHkzWbJ+XuCBzVmJg3PkzqgE1oAPkPexdxHd11rWee7e1oekiv+N5xRTsm+7e1/h4kj8R+kLwsdCq8TIv5jTQAI/A+8AVpG/b6WSnf7p/UNKenBYdAObTwqgaLVV5tpbMOZmzQquWl5ln1HNPArqS+qA1nNYhf8Ry7z12qRf4KS8oomCAzrRTO1V9lFYlDYyX8dH5bFfAO4iTWBtpOj0+qkZLLxvv3qRiClYlKVEDS/M995W3rxrch/ShVb3bmXaKWsFFhXlNYv4dS0rUPDczL1oxK/j/Kgr+jxVTsFvbmQaYMB/BXvXAYKEZMHGmceuiDhrFFDzrzhq5fQD5LuiAeclHE1no0PYI51vK7cGsO3v5e29QEQVL8qAdTHK3exv5JmYPeCSp/eeXyGTGxrcsrmdxrU2d/UE7mJR0y1ZEwQCs03A4vgfpJ5R3wfu2D4ApkJlvGU+fLOsQsW9x1eaySNePHev9vnVpq6gVXNRI45vujjU+3iSfw3yKtI51cj7nup7HNUIzm5HFdZvLkq6u9Jf2+ZqxhuUck6Gw2zR9IG+c2pi+XS/fz0l3Qb+R8wNSGoF/hbQH3oP0M3jH4oqUvi+1XCis4O3tba+cWGkvrF94ctg8vudufbtD/YvkH2XtZLU/VFQ3lLiRqG809m7/Se8O35RZLhS2RTzLdmKXv/2r8ewfjVIv2p8qtuCnjrq4KWlaCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhPAv/QHPJG6yvi4H0gAAAABJRU5ErkJggg=="/>
+          <path class="cls-4" d="M117.57,173.62s6.56-.45-7.72,11.15c0,0-51.57,1.41-36.33-19.31-.47-14.89,16.45-17.03,16.45-17.03,0,0,10.69-30.54,29.11-28.36,7.22,3.5,4.99,8.6,4.99,8.6"/>
+          <path class="cls-4" d="M115.64,177.68c-5.31.64-11.13,7.04-6.4,9.85,4.73,2.81,6.32,1.8,6.32,1.8,0,0,5.24-1.98,13.25-2.87,7.12,1.3,28.87,5.86,28.18-14.76-.69-20.62-28.98-20.73-28.98-20.73l-9.59,6.43s34.02-20.43,21.17-30.74c-4.56-3.66-10.17-1.85-15.52,2.01-9.73,7.02-18.58,20.84-18.58,20.84"/>
+        </g>
+        <g>
+          <path class="cls-3" d="M88.96,173.31c-1.5-.11-1.99-1.7-1.99-1.7-1.49,1.15-2.54.21-2.54.21"/>
+          <path class="cls-5" d="M88.8,173.6c-1.13-.15-1.71-1.01-1.96-1.52-1.2.74-2.21.32-2.61-.03,0,0-.1-.2.1-.36.24-.18.31-.1.31-.1h0s.87.73,2.12-.24c0,0,.27-.29.37-.26s.17.42.17.42c.02.06.42,1.39,1.68,1.49,0,0,.25,0,.21.34s-.25.27-.25.27c-.05,0-.09,0-.14-.01Z"/>
+        </g>
+        <path class="cls-2" d="M81.76,160.64s.84,2.14,4.61,1.33"/>
+        <path class="cls-2" d="M96.08,164.76s.97,2.05,5.09,1.36"/>
+      </g>
+    </g>
+  </g>
+</svg>

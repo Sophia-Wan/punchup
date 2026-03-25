@@ -1,0 +1,164 @@
+/* Centered hero title */
+.site-title-wrap {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #e794f4;
+  pointer-events: auto;
+  z-index: 8;
+}
+
+/* Two-line stack  */
+.site-title-main {
+  position: relative;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.08em;
+  line-height: 1.05;
+  font-family: inherit;
+  font-size: clamp(3.25rem, 8.5vmin, 5.25rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  --site-title-o-size: 0.5em;
+  --site-title-i-size: 0.65em;
+}
+
+/* Visually hidden; still read by screen readers (same pattern as .sr-only). */
+.site-title-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* SVG Os + Is, plain text, interactive S; paired with .site-title-hidden */
+.site-title-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: inherit;
+}
+
+.site-title-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.site-title-line > span {
+  vertical-align: baseline;
+}
+
+/* Replaces letter “o” with public/O.svg */
+.site-title-o {
+  display: inline-block;
+  vertical-align: -0.1em;
+  margin: 0 0.02em;
+  line-height: 0;
+  transform-origin: 50% 55%;
+  cursor: default;
+}
+
+.site-title-opic {
+  display: block;
+  height: var(--site-title-o-size, 0.74em);
+  width: auto;
+  max-height: var(--site-title-o-size, 0.74em);
+}
+
+/* Letter “i” from public/i.svg (single image, no extra glow) */
+.site-title-i {
+  display: inline-block;
+  vertical-align: -0.1em;
+  margin: 0 0.02em;
+  line-height: 0;
+}
+
+.site-title-ipic {
+  display: block;
+  height: var(--site-title-i-size, 0.74em);
+  width: auto;
+  max-height: var(--site-title-i-size, 0.74em);
+}
+
+.site-title-o:hover {
+  animation: site-title-o-swing 1.1s ease-in-out infinite;
+  filter: drop-shadow(0 0 4px rgba(231, 148, 244, 1))
+    drop-shadow(0 0 14px rgba(231, 148, 244, 0.65))
+    drop-shadow(0 0 24px rgba(231, 148, 244, 0.35));
+}
+
+@keyframes site-title-o-swing {
+  0%,
+  100% {
+    transform: rotate(-7deg);
+  }
+  50% {
+    transform: rotate(7deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-title-o:hover {
+    animation: none;
+    filter: drop-shadow(0 0 6px rgba(231, 148, 244, 0.85));
+  }
+}
+
+/* Clickable S / s (each letter has its own spam counter and fall) */
+.site-title-s {
+  display: inline-block;
+  font: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.08s ease;
+}
+
+.site-title-s:hover {
+  filter: brightness(1.15);
+}
+
+.site-title-s:active:not(.site-title-s-drop) {
+  transform: scale(0.92);
+}
+
+.site-title-s-drop {
+  pointer-events: none;
+  cursor: default;
+  animation: site-title-s-fall 1.25s cubic-bezier(0.45, 0, 0.55, 1) forwards;
+}
+
+@keyframes site-title-s-fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(12vh) rotate(-8deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110vh) rotate(35deg);
+    opacity: 0.15;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-title-s-drop {
+    animation: none;
+    transform: translateY(2rem);
+    opacity: 0.4;
+  }
+}

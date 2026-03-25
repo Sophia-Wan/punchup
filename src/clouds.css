@@ -1,4 +1,4 @@
-.cloud-container {
+.scene-cloud-stage {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -6,7 +6,7 @@
   background: linear-gradient(to bottom, #020349 0%, #0a0f19 100%);
 }
 
-.cloud-background-layer {
+.scene-bg-layer {
   position: absolute;
   inset: 0;
   pointer-events: none;
@@ -14,7 +14,7 @@
 }
 
 /* description box*/
-.cloud-desc-wrap {
+.scene-desc-wrap {
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -26,13 +26,13 @@
   user-select: none;
 }
 
-.cloud-desc {
+.scene-desc-image {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.cloud-desc-text {
+.scene-desc-copy {
   position: absolute;
   inset: 0;
   display: grid;
@@ -45,104 +45,9 @@ margin-top:1.5rem;
   font-size: 1.5rem;
   line-height: 1.15;
 }
-
-
-
-.cloud {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 5;
-}
-
-.cloud-bottom img {
-  bottom: 0;
-  top: auto;
-}
-
-.cloud-top img {
-  top: 0;
-  bottom: auto;
-  max-height: 140vmin;
-  min-height: 580px;
-}
-
-.cloud img {
-  position: absolute;
-  width: auto;
-  max-height: 110vh;
-  min-height: 1000px;
-  opacity: 0.85;
-  left: 50%;
-  transform: translateX(-50%) scale(1.45);
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-delay: 0s;
-}
-
-.cloud-bottom img.cloud-move-right {
-  animation-name: cloud-disperse-right;
-}
-
-.cloud-bottom img.cloud-move-left {
-  animation-name: cloud-disperse-left;
-}
-
-.cloud-top img.cloud-move-right {
-  animation-name: cloud-disperse-right-top;
-}
-
-.cloud-top img.cloud-move-left {
-  animation-name: cloud-disperse-left-top;
-}
-
-@keyframes cloud-disperse-right {
-  0% {
-    transform: translateX(-50%) scale(1.45);
-  }
-  100% {
-    transform: translateX(calc(100vw + 50%)) scale(1.45);
-  }
-}
-
-@keyframes cloud-disperse-left {
-  0% {
-    transform: translateX(-50%) scale(1.45);
-  }
-  100% {
-    transform: translateX(calc(-200vw - 70%)) scale(1.45);
-  }
-}
-
-@keyframes cloud-disperse-right-top {
-  0% {
-    transform: translateX(-50%) rotate(180deg) scale(1.45);
-  }
-  100% {
-    transform: translateX(calc(100vw + 50%)) rotate(180deg) scale(1.45);
-  }
-}
-
-@keyframes cloud-disperse-left-top {
-  0% {
-    transform: translateX(-50%) rotate(180deg) scale(1.45);
-  }
-  100% {
-    transform: translateX(calc(-200vw - 75%)) rotate(180deg) scale(1.45);
-  }
-}
-
-
-
 @media (prefers-reduced-motion: reduce) {
-  .cloud-background-layer-small,
-  .cloud-background-layer-big {
+  .scene-bg-small,
+  .scene-bg-large {
     animation: none;
   }
 }

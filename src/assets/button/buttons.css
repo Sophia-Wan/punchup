@@ -1,5 +1,5 @@
 
-.cloud-buttons {
+.scene-btn-group {
     position: absolute;
     left: 50%;
     top: 25%;
@@ -11,9 +11,9 @@
     pointer-events: auto;
     z-index: 20;
 }
-.cloud-button {
+.scene-btn-action {
     position: relative;
-    z-index: 3;
+    z-index: 2;
     pointer-events: auto;
     padding: 1rem 3.25rem;
     border-radius: 15px;
