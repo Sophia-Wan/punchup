@@ -1,89 +1,89 @@
 .move-cloud-wrap {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 100;
 }
 
 .move-cloud-lower img {
-  bottom: 0;
-  top: auto;
+    bottom: 0;
+    top: auto;
 }
 
 .move-cloud-upper img {
-  top: 0;
-  bottom: auto;
-  max-height: 140vmin;
-  min-height: 580px;
+    top: 0;
+    bottom: auto;
+    max-height: 140vmin;
+    min-height: 580px;
 }
 
 .move-cloud-wrap img {
-  position: absolute;
-  width: auto;
-  max-height: 110vh;
-  min-height: 1000px;
-  opacity: 0.85;
-  left: 50%;
-  transform: translateX(-50%) scale(1.45);
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-delay: 0s;
+    position: absolute;
+    width: auto;
+    max-height: 110vh;
+    min-height: 1000px;
+    opacity: 0.85;
+    left: 50%;
+    transform: translateX(-50%) scale(1.45);
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
 }
 
 .move-cloud-lower img.move-cloud-right {
-  animation-name: scene-drift-right;
+    animation-name: scene-drift-right;
 }
 
 .move-cloud-lower img.move-cloud-left {
-  animation-name: scene-drift-left;
+    animation-name: scene-drift-left;
 }
 
 .move-cloud-upper img.move-cloud-right {
-  animation-name: scene-drift-top-right;
+    animation-name: scene-drift-top-right;
 }
 
 .move-cloud-upper img.move-cloud-left {
-  animation-name: scene-drift-top-left;
+    animation-name: scene-drift-top-left;
 }
 
 @keyframes scene-drift-right {
-  0% {
-    transform: translateX(-50%) scale(1.45);
-  }
-  100% {
-    transform: translateX(calc(100vw + 50%)) scale(1.45);
-  }
+    0% {
+        transform: translateX(-50%) scale(1.45);
+    }
+    100% {
+        transform: translateX(calc(100vw + 50%)) scale(1.45);
+    }
 }
 
 @keyframes scene-drift-left {
-  0% {
-    transform: translateX(-50%) scale(1.45);
-  }
-  100% {
-    transform: translateX(calc(-200vw - 70%)) scale(1.45);
-  }
+    0% {
+        transform: translateX(-50%) scale(1.45);
+    }
+    100% {
+        transform: translateX(calc(-200vw - 75%)) scale(1.45);
+    }
 }
 
 @keyframes scene-drift-top-right {
-  0% {
-    transform: translateX(-50%) rotate(180deg) scale(1.45);
-  }
-  100% {
-    transform: translateX(calc(100vw + 50%)) rotate(180deg) scale(1.45);
-  }
+    0% {
+        transform: translateX(-50%) rotate(180deg) scale(1.45);
+    }
+    100% {
+        transform: translateX(calc(100vw + 50%)) rotate(180deg) scale(1.45);
+    }
 }
 
 @keyframes scene-drift-top-left {
-  0% {
-    transform: translateX(-50%) rotate(180deg) scale(1.45);
-  }
-  100% {
-    transform: translateX(calc(-200vw - 75%)) rotate(180deg) scale(1.45);
-  }
+    0% {
+        transform: translateX(-50%) rotate(180deg) scale(1.45);
+    }
+    100% {
+        transform: translateX(calc(-200vw - 75%)) rotate(180deg) scale(1.45);
+    }
 }

@@ -3,7 +3,7 @@
     left: 50%;
     bottom: 0;
     transform: translateX(-50%) translateY(50%);
-    width: min(1100px, 95vw);
+    width: min(900px, 95vw);
     max-width: 1400px;
     height: auto;
     z-index: 7;
